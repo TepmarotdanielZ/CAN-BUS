@@ -197,6 +197,22 @@ The connection between F446 Nucleo TX and F446 Nucleo RX is shown below.
 
 VIII. Real Connection and Diagram
 
+![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/99c7fbf8-b6e7-4e48-bab9-26bcbd2aff5a)
+
+![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/7cb6e4e2-26b7-4bed-9306-8635c3245925)
+
+
+ IX. VDO Testing 
+
+        • VDO TESTING 1
+
+ ![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/16ac4410-46ab-46ad-8bf7-a329a75efb6b)
+
+ 
+         • VDO TESTING 2
+         
+ ![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/0bd4142a-df47-45a8-ba8e-4805c2ac85d0)
+
 
 
 
