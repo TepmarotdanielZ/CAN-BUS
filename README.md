@@ -206,7 +206,7 @@ VIII. Real Connection and Diagram
 
         • VDO TESTING 1
 
- ![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/16ac4410-46ab-46ad-8bf7-a329a75efb6b)
+ 
 
          • VDO TESTING 2
          
