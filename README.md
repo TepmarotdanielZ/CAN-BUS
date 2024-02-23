@@ -208,11 +208,11 @@ VIII. Real Connection and Diagram
 
  ![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/16ac4410-46ab-46ad-8bf7-a329a75efb6b)
 
- 
          • VDO TESTING 2
          
  ![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/0bd4142a-df47-45a8-ba8e-4805c2ac85d0)
 
+![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/f1619105-6207-4020-9841-e1685f4ce9cb)
 
 
 
