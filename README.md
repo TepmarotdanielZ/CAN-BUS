@@ -12,16 +12,24 @@ CAN (Controlled Area Network) Protocol is a way of communication between differe
 
 Shown below is the Standard CAN Frame
 
-![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/18f4638d-603d-4ef2-8932-787a9434f02d)
+![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/46bc752f-e9cf-4c09-99f8-d28f81076632)
+
 
 
 • Here, Identifier is the ID of the transmitting Device
+
 • RTR (Remote Transmission Request) Specifies if the data is Remote frame or Data frame
+
 • IDE specifies if we are using Standard ID or Extended ID
+
 • r is the Reserved bit
+
 • DLC specifies the data length in Bytes
+
 • Data Field is where we can send the data, which should be upto 8 bytes
+
 • Checksum and DEL are the CRC data and it’s Delimiter
+
 • ACK and DEL is the acknowledgment bit and it’s Delimiter
 
 In this Tutorial, we will see upto the Data Field only. The CRC and ACK will be handled by the HAL Library.
