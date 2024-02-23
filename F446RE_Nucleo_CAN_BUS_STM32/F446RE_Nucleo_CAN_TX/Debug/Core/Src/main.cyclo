@@ -1,0 +1,6 @@
+../Core/Src/main.c:94:8:map	1
+../Core/Src/main.c:101:7:HAL_CAN_RxFifo0MsgPendingCallback	3
+../Core/Src/main.c:142:5:main	1
+../Core/Src/main.c:220:6:SystemClock_Config	4
+../Core/Src/main.c:273:7:HAL_TIM_PeriodElapsedCallback	3
+../Core/Src/main.c:311:6:Error_Handler	1
