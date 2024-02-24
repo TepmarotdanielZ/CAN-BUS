@@ -154,7 +154,20 @@ VI. Filtter Configuration
 
 In order to reduce CPU Load to filter out messages, the STM32 have the Filters built inside the CAN peripheral. Let’s Check them out
 
-![image](https://github.com/TepmarotdanielZ/CAN-BUS/assets/139426571/8d630815-0b91-459b-a817-fa3ba6e6240c)
+      CAN_FilterTypeDef canfilterconfig;
+
+      canfilterconfig.FilterActivation = CAN_FILTER_ENABLE;
+      canfilterconfig.FilterBank = 18; // which filter bank to use from the assigned ones
+      canfilterconfig.FilterFIFOAssignment = CAN_FILTER_FIFO0;
+      canfilterconfig.FilterIdHigh = 0x446 << 5;  //446<<5
+      canfilterconfig.FilterIdLow = 0;
+      canfilterconfig.FilterMaskIdHigh = 0x446 << 5;  //446<<5
+      canfilterconfig.FilterMaskIdLow = 0x0000;
+      canfilterconfig.FilterMode = CAN_FILTERMODE_IDMASK;
+      canfilterconfig.FilterScale = CAN_FILTERSCALE_32BIT;
+      canfilterconfig.SlaveStartFilterBank = 20; // doesn't matter in single can controllers
+
+      HAL_CAN_ConfigFilter(&hcan1, &canfilterconfig);
 
 1. FilterActivation specifies if we want to enable Filters or not. Obviously we have to enable them
 
